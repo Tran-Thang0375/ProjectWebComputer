@@ -3875,7 +3875,7 @@ function Dom_slide5() {
 slider__product.forEach(function (item) {
     item.setAttribute("location", "0")
 })
-
+   
 function domSL (index,item) {
     if(!item.classList.contains("active-color")){
         switch (index) {
